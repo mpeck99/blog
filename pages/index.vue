@@ -3,7 +3,7 @@
     <div>
       <logo/>
       <h1 class="title">
-        blog
+        Kim Futhey's Blog
       </h1>
       <h2 class="subtitle">
         Kim Futhey&#39;s Blog
