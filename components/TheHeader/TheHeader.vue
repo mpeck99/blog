@@ -30,31 +30,33 @@
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: center;
+      flex-direction: row;
+      justify-content: flex-end;
       align-items: center;
       height: 100%;
     }
     .nav-link{
       height: 100%;
       display: flex;
+
       justify-content: center;
       align-items: center;
       margin: 0 1rem;
       padding: 0.3rem;
 
     }
-    .nav-link.nuxt-link-exact-active {
-      border-bottom: 2px solid rebeccapurple;
-
+    .nav-link.nuxt-link-exact-active a{
+      border-bottom: 2px solid #EAE0D5;
     }
     .nav-link a{
       display: block;
+      color: #0B2C9F;
       text-decoration: none;
     }
     .nav-link a:hover,
     .nav-link a:active,
     .nav-link.nuxt-link-exact-active a{
-    color: rebeccapurple;
+    color: #262626;
     }
 </style>
 

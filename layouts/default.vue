@@ -23,13 +23,16 @@
     box-sizing: border-box;
   }
   p{
-    font-family:".SF NS Display", sans-serif;
+    font-family:".SF NS Display";
   }
   h1{
-    font-family: "Plantagenet Cherokee", sans-serif;
+    font-family: "Plantagenet Cherokee";
   }
   .main-content{
        margin: 4.5rem;
 
      }
+  body{
+    background-color: #FFF8F0 ;
+  }
 </style>
