@@ -27,7 +27,8 @@ export default {
             id: bp.slug,
             title: bp.content.title,
             previewText: bp.content.summary,
-            thumbnailUrl: bp.content.thumbnail
+            thumbnailUrl: bp.content.thumbnail,
+            category: bp.content.category
           };
         }),
       };

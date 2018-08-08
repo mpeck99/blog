@@ -9,6 +9,7 @@
     <div class="post-preview-content">
       <h1> {{ title }} </h1>
       <p> {{ excerpt }} </p>
+      <p> {{ category }}</p>
     </div>
   </article>
   </nuxt-link>
@@ -26,6 +27,10 @@
         required: true,
       },
       thumbnailImage: {
+        type: String,
+        required: true,
+      },
+      category: {
         type: String,
         required: true,
       },
